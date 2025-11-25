@@ -1,0 +1,15 @@
+{
+  "name": "My App",
+  "short_name": "MyApp",
+  "start_url": ".",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/drinks/public/images/emongolia.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#fff",
+  "theme_color": "#000"
+}
