@@ -1,8 +1,9 @@
 {
-  "name": "My App",
-  "short_name": "MyApp",
-  "start_url": ".",
+  "name": "E-Mongolia",
+  "short_name": "E-Mongolia",
+  "start_url": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "/drinks/public/images/emongolia.png",
@@ -12,4 +13,6 @@
   ],
   "background_color": "#fff",
   "theme_color": "#000"
+  
 }
+
