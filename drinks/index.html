@@ -9,7 +9,7 @@
     <meta name="description" content="E-Mongolia цахим төрийн үйлчилгээ" />
     
     <!-- PWA Manifest -->
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="/drinks/src/public/manifest.json" />
     
     <!-- Icons -->
     <link rel="icon" type="image/png" href="/drinks/public/images/emongolia.png" />
@@ -25,7 +25,7 @@
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/service-worker.js')
+          navigator.serviceWorker.register('/drinks/public/service-worker.js')
             .then(registration => {
               console.log('Service Worker бүртгэгдлээ:', registration);
             })
